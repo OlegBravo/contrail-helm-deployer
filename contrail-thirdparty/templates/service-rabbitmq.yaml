@@ -12,5 +12,4 @@ spec:
   selector:
 {{ tuple $context "opencontrail" "rabbitmq" | include "helm-toolkit.snippets.kubernetes_metadata_labels" | indent 4 }}
   type: ClusterIP
-  clusterIP: None
 {{- end }}

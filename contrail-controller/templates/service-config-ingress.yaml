@@ -12,5 +12,4 @@ spec:
   selector:
     app: ingress-api
   type: ClusterIP
-  clusterIP: None
 {{- end }}
