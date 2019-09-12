@@ -15,4 +15,5 @@ spec:
   selector:
 {{ tuple $context "opencontrail" "contrail-config" | include "helm-toolkit.snippets.kubernetes_metadata_labels" | indent 4 }}
   type: ClusterIP
+  clusterIP: None
 {{- end }}
